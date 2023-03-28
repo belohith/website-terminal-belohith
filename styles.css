@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Source Code";
+  src: url("fonts/SourceCode.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Source Code Light";
+  src: url("fonts/SourceCode-Light.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Cascadia";
+  src: url("fonts/CascadiaCode.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cascadia Light";
+  src: url("fonts/CascadiaCode-Light.woff2") format("woff2");
+}
+
+body {
+  background-color: #111111;
+  color: #ffffff;
+  font-family: "Source Code Pro", "Cascadia", monospace;
+}
+
+#text-area {
+  background: none;
+  border: none;
+  color: #5fda56;
+  resize: none;
+  outline: none;
+  caret-color: #5fda56;
+  width: 50%;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 135%;
+  flex: 1;
+  width: 75%;
+  height: 16px;
+}
+
+.input {
+  color: #5fda56;
+  font-weight: bold;
+}
+
+#output {
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.instruction {
+  color: #5fda56;
+  margin-right: 5px;
+}
+
+#commands-table {
+  margin-top: 10px;
+  border-collapse: collapse;
+  width: 70%;
+  display: none;
+}
+
+#commands-table th,
+#commands-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#commands-table tr:hover {
+  background-color: #222;
+}
+
+#commands-table th {
+  background-color: #4caf50;
+  color: white;
+}
