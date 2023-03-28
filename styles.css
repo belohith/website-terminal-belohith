@@ -41,6 +41,7 @@ body {
   height: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding: 5px;
 }
 
 .input {
@@ -87,7 +88,7 @@ body {
 }
 
 #commands-table th {
-  background-color: #4caf50;
+  background-color: #afa84c;
   color: white;
 }
 

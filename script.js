@@ -58,9 +58,23 @@ textArea.addEventListener("keydown", function (event) {
         output.innerHTML +=
           "Here is a list of the Technical Projects I worked on:<br>";
         output.innerHTML +=
-        `<table id="commands-tech"><tr><th>Project</th><th>Link/Demo</th><th>GitHub</th><th>Description</th></tr><tr><td>Behance</td><td>Link/Demo</td><td>GitHub</td><td>About Me</td></tr><tr><td>Dribbble</td><td>Link/Demo</td><td>GitHub</td><td>Projects in the Tech Domain like Web Development, Programming, AR/VR etc.</td></tr><tr><td>Facebook</td><td>Link/Demo</td><td>GitHub</td><td>Projects in the Creative Domain like Design, Filming, Photography, Writing etc.</td></tr><tr><td>Instagram</td><td>Link/Demo</td><td>GitHub</td><td>My Social Media Profiles</td></tr><tr><td>Medium</td><td>Link/Demo</td><td>GitHub</td><td>Clears the terminal output</td></tr>
-        <tr><td>YouTube</td><td>Link/Demo</td><td>Snapchat</td><td>About Me</td></tr><tr><td>Spotify</td><td>Link/Demo</td><td>GitHub</td><td>Projects in the Tech Domain like Web Development, Programming, AR/VR etc.</td></tr><tr><td>GitHub</td><td>Link/Demo</td><td>GitHub</td><td>Projects in the Creative Domain like Design, Filming, Photography, Writing etc.</td></tr><tr><td>LinkedIn</td><td>Link/Demo</td><td>GitHub</td><td>My Social Media Profiles</td></tr><tr><td>Pinterest</td><td>Link/Demo</td><td>GitHub</td><td>Clears the terminal output</td></tr>
-        <tr><td>Twitter</td><td>Link/Demo</td><td>GitHub</td><td>About Me</td></tr><tr><td>Hashnode</td><td>Link/Demo</td><td>GitHub</td><td>Projects in the Tech Domain like Web Development, Programming, AR/VR etc.</td></tr><tr><td>Dev.to</td><td>Link/Demo</td><td>GitHub</td><td>Projects in the Creative Domain like Design, Filming, Photography, Writing etc.</td></tr><tr><td>Leetcode</td><td>Link/Demo</td><td>GitHub</td><td>My Social Media Profiles</td></tr><tr><td>Kaggle</td><td>Link/Demo</td><td>GitHub</td><td>Clears the terminal output</td></tr>`
+        `<table id="commands-tech"><tr><th>Project</th><th>Link/Demo</th><th>Repo</th><th>Description</th><th>Date started on</th><th>Tools/Tech used</th></tr>
+        <tr><td>Shark Tank India React</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>About Me</td></tr>
+        <tr><td>Arrow Mark Tracker App</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>Projects in the Tech Domain like Web Development, Programming, AR/VR etc.</td></tr>
+        <tr><td>Text on Image</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>Projects in the Creative Domain like Design, Filming, Photography, Writing etc.</td></tr>
+        <tr><td>Shark Tank India Data</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>My Social Media Profiles</td></tr>
+        <tr><td>Krakkar CSS Framework</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>Clears the terminal output</td></tr>
+        <tr><td>The Best Heads Twitter Bot</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>About Me</td></tr>
+        <tr><td>Implementation of ML Algorithms</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>Projects in the Tech Domain like Web Development, Programming, AR/VR etc.</td></tr>
+        <tr><td>Cybersecurity Methods</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>Projects in the Creative Domain like Design, Filming, Photography, Writing etc.</td></tr>
+        <tr><td>Spam Classifier</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>My Social Media Profiles</td></tr>
+        <tr><td>Boogle: Google Clone</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>Clears the terminal output</td></tr>
+        <tr><td>Amazon Scraper API</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>About Me</td></tr>
+        <tr><td>Radish: Travel Maps App</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>Projects in the Tech Domain like Web Development, Programming, AR/VR etc.</td></tr>
+        <tr><td>Ox App Portal</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>Projects in the Creative Domain like Design, Filming, Photography, Writing etc.</td></tr>
+        <tr><td>Caramel</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>My Social Media Profiles</td></tr>
+        <tr><td>Bytes</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>Clears the terminal output</td></tr>
+        <tr><td>AR/VR Filters</td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">Link/Demo</a></td><td><a href="https://www.behance.net/belohith" class="link" target= "_blank">GitHub</a></td><td>Clears the terminal output</td></tr>`
         const styletech = `
     <style>
       #commands-tech {
@@ -79,9 +93,14 @@ textArea.addEventListener("keydown", function (event) {
         background-color: #222;
       }
       #commands-tech th {
-        background-color: #4caf50;
-        color: white;
+        background-color: #f2e536;
+        color: #111111;
+        font-weight: bold;
       }
+      #commands-tech .link {
+          color: #4c99af;
+          text-decoration: none;
+        }
     </style>
   `;
         document.head.insertAdjacentHTML("beforeend", styletech);
