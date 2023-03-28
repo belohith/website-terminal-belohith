@@ -90,3 +90,14 @@ body {
   background-color: #4caf50;
   color: white;
 }
+
+::-webkit-scrollbar {
+  width: 0.1rem; /* Remove scrollbar space */
+  background: #111111; /* Optional: just make scrollbar invisible */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4caf50; /* Optional: just make scrollbar invisible */
+  border-radius: 10px;
+}
