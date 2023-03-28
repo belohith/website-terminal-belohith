@@ -40,6 +40,25 @@ textArea.addEventListener("keydown", function (event) {
         background-color: #4caf50;
         color: white;
       }
+
+      @media screen and (max-width: 768px) {
+        #commands-table {
+          margin-top: 20px;
+          width: 100%;
+          display: block;
+        }
+        #commands-table th,
+        #commands-table td {
+          padding: 5px;
+          text-align: left;
+          border-bottom: 1px solid #ddd;
+        }
+        #commands-table th {
+          background-color: #4caf50;
+          color: white;
+        }
+      }
+      
     </style>
   `;
         document.head.insertAdjacentHTML("beforeend", style);
@@ -80,6 +99,20 @@ textArea.addEventListener("keydown", function (event) {
           color: #4c99af;
           text-decoration: none;
         }
+
+        @media screen and (max-width: 768px) {
+          #commands-about {
+            margin-top: 20px;
+            width: 100%;
+            display: block;
+          }
+          #commands-about a {
+            display: block;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+          }
+        }
+        
       
     </style>
   `;
@@ -113,37 +146,41 @@ textArea.addEventListener("keydown", function (event) {
         <tr><td>Caramel</td><td><a href="https://caramel-ox.netlify.app/" class="link" target= "_blank">Live</a></td><td class="na">N/A</td><td>A social app that lets you connect with people based on thoughts, ideas primarily rather than looks. (Currently beta)</td><td>02 May 2020</td><td>React · NodeJS</td></tr>
         <tr><td>Bytes</td><td><a href="https://play.google.com/store/apps/details?id=com.oxapps.lohithb.bytes" class="link" target= "_blank">Link</a></td><td class="na">N/A</td><td>An Android app which is an adaption of the popular Whack-a-Mole game which is a 3x3 grid button game.</td><td>20 Apr 2019</td><td>Android · Java · XML · Mobile</td></tr>`
         const styletech = `
-    <style>
-      #commands-tech {
-        margin-top: 10px;
-        border-collapse: collapse;
-        width: 85%;
-        display: none;
-      }
-      #commands-tech th,
-      #commands-tech td {
-        padding: 8px;
-        text-align: left;
-        border-bottom: 1px solid #ddd;
-      }
-      #commands-tech tr:hover {
-        background-color: #222;
-      }
-      #commands-tech th {
-        background-color: #f2e536;
-        color: #111111;
-        font-weight: bold;
-      }
-      #commands-tech .link {
-          color: #4c99af;
-          text-decoration: none;
+        <style>
+        #commands-tech {
+          margin-top: 10px;
+          border-collapse: collapse;
+          width: 90%;
+          display: none;
         }
-        
-      #commands-tech .na {
-        color: #363535;
-        text-decoration: none;
-      }
-    </style>
+        #commands-tech th,
+        #commands-tech td {
+          padding: 8px;
+          text-align: left;
+          border-bottom: 1px solid #ddd;
+        }
+        #commands-tech tr:hover {
+          background-color: #222;
+        }
+        #commands-tech th {
+          background-color: #e68032;
+          color: white;
+        }
+        #commands-tech .link {
+            color: #4c99af;
+            text-decoration: none;
+          }
+          
+        #commands-tech .na {
+          color: #363535;
+          text-decoration: none;
+  
+        @media only screen and (max-width: 768px) {
+          #commands-tech {
+            width: 100%;
+          }
+        }
+        </style>
   `;
         document.head.insertAdjacentHTML("beforeend", styletech);
 
@@ -203,6 +240,12 @@ textArea.addEventListener("keydown", function (event) {
       #commands-creative .na {
         color: #363535;
         text-decoration: none;
+
+        @media screen and (max-width: 768px) {
+          #commands-creative {
+            width: 100%;
+          }
+        }
     </style>
   `;
         document.head.insertAdjacentHTML("beforeend", stylecreative);
@@ -244,6 +287,13 @@ textArea.addEventListener("keydown", function (event) {
     #commands-social .link {
         color: #4c99af;
         text-decoration: none;
+      }
+
+      @media screen and (max-width: 768px) {
+        #commands-social {
+          width: 100%;
+          padding-right: 20px;
+        }
       }
   </style>
 `;
