@@ -85,7 +85,8 @@ textArea.addEventListener("keydown", function (event) {
         Databases: <a>HTML · CSS · JavaScript · TypeScript · XML · NodeJS · Python · Android · Hybrid Mobile · ExpressJS · Flutter · React Native</a> <br><br>
         DevOps, CI/CD, API: <a>Microsoft Office · GitHub · Docker · Kubernetes · Jenkins ·  Postman</a> <br><br>
         Others: <a>Design · Video Editing · Photography · Author · Typography · Augmented & Virtual Reality · UI & UX · Digital Illustrations</a><br>
-        <br>Certifications: Google UI UX Design Professional Certificate - <a  target="_blank" href="https://www.coursera.org/account/accomplishments/professional-cert/QLMAEPEF32W5"> View Certificate </a>
+        <br>Certifications: <br><br> Google UI UX Design Professional Certificate - <a  target="_blank" href="https://www.coursera.org/account/accomplishments/professional-cert/QLMAEPEF32W5"> View Certificate </a>
+        IBM Full Stack Professional Certificate - <a  target="_blank" href="https://www.coursera.org/account/accomplishments/professional-cert/QLMAEPEF32W5"> View Certificate </a>
         </p>`;
         const styleabout = `
     <style>
