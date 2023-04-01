@@ -86,7 +86,9 @@ textArea.addEventListener("keydown", function (event) {
         DevOps, CI/CD, API: <a>Microsoft Office · GitHub · Docker · Kubernetes · Jenkins ·  Postman</a> <br><br>
         Others: <a>Design · Video Editing · Photography · Author · Typography · Augmented & Virtual Reality · UI & UX · Digital Illustrations</a><br>
         <br>Certifications: <br><br> Google UI UX Design Professional Certificate - <a  target="_blank" href="https://www.coursera.org/account/accomplishments/professional-cert/QLMAEPEF32W5"> View Certificate </a>
-        IBM Full Stack Professional Certificate - <a  target="_blank" href="https://www.coursera.org/account/accomplishments/professional-cert/QLMAEPEF32W5"> View Certificate </a>
+        IBM Full Stack Professional Certificate - <a  target="_blank" href="https://www.coursera.org/account/accomplishments/professional-cert/QLMAEPEF32W5"> View Certificate </a> <br>
+        IBM Data Science Professional Certificate - <a  target="_blank" href="https://www.coursera.org/account/accomplishments/professional-cert/QLMAEPEF32W5"> View Certificate </a> <br>
+        IBM DevOps Professional Certificate - <a  target="_blank" href="https://www.coursera.org/account/accomplishments/professional-cert/QLMAEPEF32W5"> View Certificate </a> <br>
         </p>`;
         const styleabout = `
     <style>
